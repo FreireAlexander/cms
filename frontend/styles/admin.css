@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.Admin{
+    font-size: 2rem;
+    background-color: blue;
+}
+
+.admin{
+    font-size: 5rem;
+    background-color: red;
+}

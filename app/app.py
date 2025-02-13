@@ -1,18 +1,5 @@
-from flask import Flask, render_template
-from settings import general_settings
+from flask import Flask
 
-app = Flask('')
-
-
-@app.route("/")
-def helloWorld():
-    return render_template("admin/index.html")
-
-
-@app.route("/admin")
-def adminPage():
-    return render_template("admin.html")
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
+def create_app():
+    app = Flask(__name__)
+    return app
